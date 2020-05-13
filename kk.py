@@ -148,7 +148,7 @@ login = 'https://www.instagram.com/'
 '''
 
 #t = Thread(target=special).start()
-#t = Thread(target=ali).start()
-#t = Thread(target=ali).start()
+t = Thread(target=ali).start()
+t = Thread(target=ali).start()
 t = Thread(target=ali).start()
 #ali()
