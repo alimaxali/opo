@@ -13,14 +13,14 @@ from os.path import isfile, getsize
 from readline import parse_and_bind
 from time import sleep
 from threading import Thread
-hh = "aliii"
+ff = "ali"
 a = Session()
 w = Fore.WHITE
 b = Fore.BLUE
 r = Fore.RED
-ff = "011234456"+aa
-opop = ff+hh
 
+opop = ff+hh
+aass = raw_input('nump ----> ')
 #print ("ali max = Wait 24 hours") 
 #time.sleep(10000000000)
 if not isfile('.test.txt'):
@@ -104,7 +104,7 @@ def ali():
  while True:
   try:
    time.sleep (1) 
-   all = '0101'+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))
+   all = str(aass)+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))+str(randint(0,9))
    op = a.get(login)                                                        
                                                                    
    pr = {'http':choice(str(f))}
