@@ -19,7 +19,7 @@ w = Fore.WHITE
 b = Fore.BLUE
 r = Fore.RED
 
-opop = ff+hh
+#opop = ff+hh
 aass = raw_input('nump ----> ')
 #print ("ali max = Wait 24 hours") 
 #time.sleep(10000000000)
